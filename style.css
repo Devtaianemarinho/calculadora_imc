@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 16px 8px;
+    padding: 8px;
+    color: teal;
+    font-weight: bolder;
+}
+
+label{
+    margin: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+input{
+    display: flex;
+    margin: 8px;
+    padding: 6px;
+}
+
+input:focus{
+    outline-color: rgba(0, 0, 0, 0.589);
+}
+
+button{
+    margin: 8px;
+    padding: 8px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 255, 0.767);
+    
+}
